@@ -1,0 +1,34 @@
+
+.container{
+    padding: 3rem 0;
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 2rem;
+}
+.cart-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.order-summary{
+    height: 400px;
+    background-color: #ff990050;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+}
+.order-summary h1{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.delete{
+    width: 100%;
+    border: none;
+    padding: .8rem 0;
+    background-color: #fa2c2c;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
